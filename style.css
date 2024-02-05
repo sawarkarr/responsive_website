@@ -202,15 +202,7 @@ header {
 .progress-line .css {
   width: 70%;
 }
-.progress-line .bootstrap {
-  width: 50%;
-}
-.progress-line .javascript {
-  width: 50%;
-}
-.progress-line .c {
-  width: 50%;
-}
+
 
 .bar .progress-line span::before {
   position: absolute;
@@ -244,15 +236,7 @@ header {
 .progress-line .css::after {
   content: "70%";
 }
-.progress-line .bootstrap::after {
-  content: "50%";
-}
-.progress-line .javascript::after {
-  content: "50%";
-}
-.progress-line .c::after {
-  content: "50%";
-}
+
 
 .navbar.solid {
   background-color: #07374a;
@@ -377,98 +361,6 @@ header {
   color: #f0f0e6;
 }
 
-/* ////.....proj2.....//// */
-
-.proj-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-}
-
-.proj-2 img {
-  height: 330px;
-  width: 380px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 20px 10px -10px rgb(37 41 52 / 31%);
-  margin-right: 1.7rem;
-}
-
-.proj-2 .proj2-details {
-  width: 32rem;
-}
-
-.proj-2 .proj2-details i {
-  font-size: 1.5rem;
-  color: #07374a;
-}
-
-.proj-2 .proj2-details h2 {
-  font-size: 2rem;
-  color: #07374a;
-}
-
-.proj-2 .proj2-details p {
-  font-size: 1.3rem;
-  color: #07374a;
-  font-weight: 600;
-}
-
-.proj-2 .proj2-details button {
-  background: #f0f0e6;
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-  width: 150px;
-  border: none;
-  border-bottom: 2px solid #07374a;
-}
-
-.proj-2 .proj2-details button a {
-  text-decoration: none;
-  color: #07374a;
-  font-size: 1.1rem;
-  transition: 0.2s ease-in-out;
-  text-align: center;
-  transition: 0.3s ease-in-out;
-}
-
-.proj-2 .proj2-details button .fas {
-  font-size: 0.7rem;
-  padding: 0.3rem;
-  transition: 0.2s ease-in-out;
-}
-
-.proj-2 .proj2-details button:hover {
-  background: #07374a;
-}
-
-.proj-2 .proj2-details button:hover a,
-.proj-2 .proj2-details button:hover .fas {
-  color: #f0f0e6;
-}
-
-.more-work {
-  text-align: center;
-  margin: 3rem 0 1rem 0;
-}
-
-.more-work p {
-  font-size: 1.6rem;
-  color: #07374a;
-  font-weight: 500;
-}
-
-.more-work a {
-  text-decoration: none;
-  color: #f0f0e6;
-  font-size: 1.3rem;
-}
-
-.more-work a:hover {
-  border-bottom: 2px solid #f0f0e6;
-}
-
 /* ////......Contact......///// */
 
 .contact {
@@ -560,17 +452,7 @@ header {
     margin-bottom: 0.5rem;
   }
 
-  .proj-2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .proj-2 img {
-    height: 250px;
-    width: 290px;
-    margin-bottom: 0.5rem;
-  }
+ 
 
   .work-arrow-2 a {
     font-size: 1.3rem;
@@ -627,17 +509,7 @@ header {
     margin-bottom: 0.5rem;
   }
 
-  .proj-2 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .proj-2 img {
-    height: 240px;
-    width: 290px;
-    margin-bottom: 0.5rem;
-  }
+ 
 
   .work-arrow-2 a {
     font-size: 1.3rem;
